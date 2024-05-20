@@ -13,7 +13,6 @@ const AppRoute = () => {
       <Route path={duongdan.firstPage} element={<FirstPage />} />
       <Route path={`${duongdan.secondPage}/:id`} element={<SecondPage />} />
       <Route path={duongdan.admin} element={<AdminPage />} />
-      <Route path="/" element={<Navigate to={duongdan.login} />} />
     </Routes>
   );
 };
