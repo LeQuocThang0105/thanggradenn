@@ -1,49 +1,75 @@
 .blog-container {
-    display: flex;
-    margin-bottom: 20px;
-    max-height: 400px;
-  }
-  
-  .blog-image {
-    display: flex;
-    flex: 0 0 auto;
+  display: flex;
+  margin-bottom: 20px;
+  max-height: 500px;
+}
+
+.blog-image {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.blog-image img {
+  max-width: 460px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.blog-description {
+  flex: 1;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.blog-description h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.blog-description p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  text-overflow: ellipsis; /* Display ellipsis for overflowed text */
+}
+
+.blog-description a {
+  display: inline-block;
+  background-color: #173F2A;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.blog-description a:hover {
+  background-color: #20603f;
+}
+
+@media (max-width: 768px) {
+  .blog-container {
+    flex-direction: column;
     align-items: center;
-    margin-right: 20px;
-
   }
-  
+
+  .blog-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
   .blog-image img {
-    max-width: 460px; /* Adjust the maximum width of the image */
-    height: 80%;
+    max-width: 100%;
+    height: auto;
+  }
 
-  }
-  
-  .blog-description {
-    flex: 1;
-  }
-  
   .blog-description h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
+    text-align: center;
   }
-  
+
   .blog-description p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 15px;
+    text-align: justify;
+    max-height: 160px; /* Set maximum height for description on mobile */
   }
-  
-  .blog-description a {
-    display: inline-block;
-    background-color: #173F2A; /* Example button background color */
-    color: #fff; /* Example button text color */
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .blog-description a:hover {
-    background-color: #20603f; /* Example button background color on hover */
-  }
-  
+}
