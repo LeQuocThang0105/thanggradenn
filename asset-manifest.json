@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/thanggradenn/static/css/main.84d613a3.css",
-    "main.js": "/thanggradenn/static/js/main.d36e821f.js",
+    "main.js": "/thanggradenn/static/js/main.cc95751a.js",
     "static/js/453.c075bfcb.chunk.js": "/thanggradenn/static/js/453.c075bfcb.chunk.js",
     "static/media/monBanner.jpg": "/thanggradenn/static/media/monBanner.0501aeb335f672cd7a14.jpg",
     "static/media/newlogo.png": "/thanggradenn/static/media/newlogo.b967c46b02161506ca6d.png",
     "index.html": "/thanggradenn/index.html",
     "main.84d613a3.css.map": "/thanggradenn/static/css/main.84d613a3.css.map",
-    "main.d36e821f.js.map": "/thanggradenn/static/js/main.d36e821f.js.map",
+    "main.cc95751a.js.map": "/thanggradenn/static/js/main.cc95751a.js.map",
     "453.c075bfcb.chunk.js.map": "/thanggradenn/static/js/453.c075bfcb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84d613a3.css",
-    "static/js/main.d36e821f.js"
+    "static/js/main.cc95751a.js"
   ]
 }
